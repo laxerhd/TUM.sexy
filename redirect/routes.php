@@ -190,10 +190,10 @@ class Route {
             'target'      => 'https://www.sv.tum.de/asta/team/diversityqueer/',
         ],
         'ds'               => [
-            'description' => 'Diskrete Strukturen',
-            'moodle_id'   => '80008',
+            'description' => 'Diskrete Strukturen (Moodle-Kurs)',
+            'moodle_id'   => '100934',
         ],
-	'dsolver'          => [
+	    'dsolver'          => [
             'description' => 'DSolver',
             'target'   	  => 'https://www.dsolver.de/',
         ],
@@ -221,7 +221,7 @@ class Route {
             'description' => 'Einführung in die Softwaretechnik',
             'target'      => 'https://artemis.cit.tum.de/courses/241',
         ],
-	'eistslack'             => [
+	    'eistslack'             => [
             'description' => 'EIST Slack-Channel',
             'target'      => 'https://eist2023.slack.com/',
         ],
@@ -377,9 +377,9 @@ class Route {
             'description' => 'Medical Imaging Technology',
             'moodle_id'   => '61616',
         ],
-        'info1'            => [
-            'description' => 'Einführung in die Informatik 1',
-            'moodle_id'   => '80182',
+        'eidi'            => [
+            'description' => 'Einführung in die Informatik (Moodle-Kurs)',
+            'moodle_id'   => '100933',
         ],
         'io'               => [
             'description' => 'Information Officer',
@@ -406,11 +406,11 @@ class Route {
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
         ],
-	'lambda'           => [
-	    'description' => 'Lambda Calculus',
-	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
+	    'lambda'           => [
+	        'description' => 'Lambda Calculus',
+	        'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
             'moodle_id'   => '80136',
-	],
+	    ],
         'langenacht'       => [
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
@@ -477,7 +477,7 @@ class Route {
             'description' => 'Modellbildung und Simulation',
             'moodle_id'   => '63516',
         ],
-	'moodle-zips'           => [
+	    'moodle-zips'           => [
             'description' => 'Download Zips on Moodle, then sort by pattern',
             'target'      => 'https://github.com/pczern/tum-get',
         ],
@@ -527,8 +527,8 @@ class Route {
             'target'      => 'https://tum.cloud.panopto.eu',
         ],
         'pgdp'             => [
-            'description' => 'Praktikum Grundlagen der Programmierung (Moodle-Kurs)',
-            'moodle_id'   => '80180',
+            'description' => 'Praktikum: Grundlagen der Programmierung (Moodle-Kurs)',
+            'moodle_id'   => '100771',
         ],
         'pgdpunittests'     => [
             'description' => 'Unit - Tests: Praktikum Grundlagen der Programmierung',
@@ -732,7 +732,7 @@ class Route {
             'description' => 'Transaction Systems',
             'target'      => 'https://db.in.tum.de/teaching/ss23/transactions/',
         ],
-	'tumenu'           => [
+	    'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
         ],
@@ -798,7 +798,7 @@ class Route {
         'complexity'     => 'comp',
         'covid'          => 'corona',
         'csd'            => 'pride',
-        'eidi'           => 'info1',
+        'eidi1'          => 'eidi',
         'eidi2'          => 'fpv',
         'erap'           => 'gra',
         'erapra'         => 'gra',
@@ -809,6 +809,7 @@ class Route {
         'geokal'         => 'geokalkuele',
         'gpp'            => 'pgdp',
         'hsw'            => 'wahl',
+        'info1'          => 'eidi',
         'info2'          => 'fpv',
         'kino'           => 'film',
         'kreutz'         => 'julius',
@@ -847,17 +848,17 @@ class Route {
      */
     private $sections = [
         '1. Semester' => [
-            'info1',
-            'pgdp',
-            'era',
-            'ds',
             'carlos',
+            'ds',
             'dsolver',
+            'eidi',
+            'era',
+            'pgdp',
         ],
         '2. Semester' => [
             'eist',
-	    'eistslack',
-	    'fpv',
+	        'eistslack',
+	        'fpv',
             'gad',
             'gra',
             'linalg',
@@ -921,7 +922,7 @@ class Route {
             'springer',
             'statista',
             'streams',
-	    'tumenu',
+	        'tumenu',
             'tval',
             'vorkurs',
             'wahl',
