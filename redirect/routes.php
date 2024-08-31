@@ -217,6 +217,10 @@ class Route {
             'description' => 'HowTo: Setup eduroam securely!',
             'target'      => 'https://tum.sexy/eduroam.php',
         ],
+        'eidi'            => [
+            'description' => 'Einführung in die Informatik (Moodle-Kurs)',
+            'moodle_id'   => '100933',
+        ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
             'target'      => 'https://artemis.cit.tum.de/courses/241',
@@ -376,10 +380,6 @@ class Route {
         'imgtech'          => [
             'description' => 'Medical Imaging Technology',
             'moodle_id'   => '61616',
-        ],
-        'eidi'            => [
-            'description' => 'Einführung in die Informatik (Moodle-Kurs)',
-            'moodle_id'   => '100933',
         ],
         'io'               => [
             'description' => 'Information Officer',
