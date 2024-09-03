@@ -223,7 +223,7 @@ class Route {
         ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
-            'target'      => 'https://artemis.cit.tum.de/courses/241',
+            'target'      => 'https://dse.in.tum.de/teaching/eist-24/',
         ],
 	    'eistslack'             => [
             'description' => 'EIST Slack-Channel',
@@ -273,8 +273,7 @@ class Route {
         ],
         'fpv'              => [
             'description' => 'Functional Programming and Verification',
-            'target'      => 'https://www.in.tum.de/i02/lehre/sommersemester-22/vorlesungen/functional-programming-and-verification/',
-            'moodle_id'   => '75431',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/wintersemester-2122/vorlesungen/functional-programming-and-verification/',
         ],
         'gad'              => [
             'description' => 'Grundlegende Algorithmen und Datenstrukturen',
@@ -417,7 +416,7 @@ class Route {
         ],
         'linalg'           => [
             'description' => 'Lineare Algebra für Informatik',
-            'target'      => 'https://www.moodle.tum.de/course/view.php?id=78521',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950729947?$scrollTo=toc_overview',
         ],
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
