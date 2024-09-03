@@ -38,7 +38,7 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatik',
-            'moodle_id'   => '83133',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763262',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
@@ -178,8 +178,7 @@ class Route {
         ],
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/grundlagen/?lang=de',
-            'moodle_id'   => '80363',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
         ],
         'dea'              => [
             'description' => 'Studienplan von Data Engineering & Analytics',
@@ -286,7 +285,7 @@ class Route {
         ],
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
-            'moodle_id'   => '80270',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763892',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
@@ -738,10 +737,6 @@ class Route {
         'tval'            => [
             'description' => 'Status of the Validation Stations',
             'target'      => 'https://campus.tum.de/valistatus/en/',
-        ],
-        'uanal'            => [
-            'description' => 'Übungen zu Analysis für Informatik',
-            'moodle_id'   => '84798',
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
