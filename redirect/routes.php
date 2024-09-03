@@ -224,10 +224,6 @@ class Route {
             'description' => 'Einführung in die Softwaretechnik',
             'target'      => 'https://dse.in.tum.de/teaching/eist-24/',
         ],
-	    'eistslack'             => [
-            'description' => 'EIST Slack-Channel',
-            'target'      => 'https://eist2023.slack.com/',
-        ],
         'enigame'          => [
             'description' => 'enigame Puzzle Hunt (Escape Game) Event',
             'target'      => 'https://enig.ma.tum.de',
@@ -276,7 +272,7 @@ class Route {
         ],
         'gad'              => [
             'description' => 'Grundlegende Algorithmen und Datenstrukturen',
-            'target'      => 'https://artemis.ase.in.tum.de/courses/256/exercises',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
             'moodle_id'   => '86017',
         ],
         'gadunittests'     => [
@@ -415,7 +411,7 @@ class Route {
         ],
         'linalg'           => [
             'description' => 'Lineare Algebra für Informatik',
-            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950729947?$scrollTo=toc_overview',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950729947',
         ],
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
@@ -441,7 +437,7 @@ class Route {
         ],
         'matching'         => [
             'description' => 'IN.TUM-Matching-System',
-            'target'      => 'https://matching.in.tum.de/saml2/login/',
+            'target'      => 'https://matching.in.tum.de',
         ],
         'med1'             => [
             'description' => 'Medizin 1',
