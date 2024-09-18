@@ -52,6 +52,10 @@ class Route {
             'description' => 'TUM Campus App',
             'target'      => 'https://www.tum.app/',
         ],
+        'arb'          => [
+            'description' => 'Arbabi Tutoriums-Website',
+            'target'      => 'https://home.in.tum.de/~arb/',
+        ],
         'artemis'          => [
             'description' => 'Artemis platform (Applied Software Engineering)',
             'target'      => 'https://artemis.cit.tum.de',
@@ -824,7 +828,6 @@ class Route {
         'tex'            => 'sharelatex',
         'ticket'         => 'semesterticket',
         'tumi'           => 'esn',
-        'uebanal'        => 'uanal',
         'uml'            => 'apollon',
         'urban-mobility' => 'ecarus',
         'wahlomat'       => 'walomat',
@@ -847,7 +850,6 @@ class Route {
         ],
         '2. Semester' => [
             'eist',
-	        'eistslack',
 	        'fpv',
             'gad',
             'gra',
@@ -856,18 +858,17 @@ class Route {
         ],
         '3. Semester' => [
             'anal',
-            'uanal',
             'db',
             'gbs',
         ],
         '4. Semester' => [
             'grnvs',
             'theo',
-            'theojudge',
             'dwt',
         ],
         '5. Semester' => [
             'numprog',
+            'kap',
         ],
         '6. Semester' => [],
         'Special'     => [
