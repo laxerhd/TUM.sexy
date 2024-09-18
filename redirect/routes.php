@@ -329,7 +329,7 @@ class Route {
         ],
         'grnvs'            => [
             'description' => 'Grundlagen Rechnernetze und Verteilte Systeme',
-            'target'      => 'https://www.net.in.tum.de/teaching/ss23/grnvs.html',
+            'target'      => 'https://www.net.in.tum.de/teaching/ss24/grnvs.html',
         ],
         'gs'            => [
             'description' => 'DocGS',
@@ -395,6 +395,10 @@ class Route {
         'julius'           => [
             'description' => 'Julius Kreutz Tutoriums Website',
             'target'      => 'https://julius-kreutz.de',
+        ],
+        'kap'              => [
+            'description' => 'Klinisches Anwendungsprojekt KAP (Medizin-Anwendungsfach)',
+            'target'      => 'https://gist.github.com/Jolly5/6bfe61e2e844e3c1efb56f02e4354cee',
         ],
         'ki'               => [
             'description' => 'Grundlagen der künstlichen Intelligenz',
@@ -502,7 +506,7 @@ class Route {
         ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
-            'moodle_id'   => '75131',
+            'moodle_id'   => '100678',
         ],
         'o'                => [
             'description' => 'TUM Opac',
@@ -709,10 +713,6 @@ class Route {
             'description' => 'Einführung in die theoretische Informatik',
             'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/sommersemester-2024/theo/',
             'moodle_id'   => '96557',
-        ],
-        'theojudge'        => [
-            'description' => 'TUMjudge - Einführung in die theoretische Informatik',
-            'target'      => 'https://judge.in.tum.de/theo/public/',
         ],
         'theotutor'        => [
             'description' => 'Einführung in die theoretische Informatik: Automatatutor',
