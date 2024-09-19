@@ -286,6 +286,7 @@ class Route {
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
             'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763892',
+            'moodle_id'   =>   '100579',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
