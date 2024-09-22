@@ -1,4 +1,4 @@
-FROM composer:2.7.4 as composer
+FROM composer:2.7.8 as composer
 
 WORKDIR /app
 COPY ./composer.json /app
@@ -6,7 +6,7 @@ COPY ./composer.lock /app
 
 RUN composer install --no-dev
 
-FROM php:8.3.6-apache
+FROM php:8.3.11-apache
 RUN apt update\
  && apt install wget\
  && rm -rf /var/lib/apt/lists/*
