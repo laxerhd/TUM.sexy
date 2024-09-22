@@ -196,7 +196,7 @@ class Route {
             'description' => 'Diskrete Strukturen (Moodle-Kurs)',
             'moodle_id'   => '100934',
         ],
-	    'dsolver'          => [
+	'dsolver'          => [
             'description' => 'DSolver',
             'target'   	  => 'https://www.dsolver.de/',
         ],
@@ -409,11 +409,11 @@ class Route {
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
         ],
-	    'lambda'           => [
-	        'description' => 'Lambda Calculus',
-	        'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
+	'lambda'           => [
+	    'description' => 'Lambda Calculus',
+	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS22/index.html',
             'moodle_id'   => '80136',
-	    ],
+	],
         'langenacht'       => [
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
@@ -480,7 +480,7 @@ class Route {
             'description' => 'Modellbildung und Simulation',
             'moodle_id'   => '63516',
         ],
-	    'moodle-zips'           => [
+	'moodle-zips'           => [
             'description' => 'Download Zips on Moodle, then sort by pattern',
             'target'      => 'https://github.com/pczern/tum-get',
         ],
@@ -731,7 +731,7 @@ class Route {
             'description' => 'Transaction Systems',
             'target'      => 'https://db.in.tum.de/teaching/ss23/transactions/',
         ],
-	    'tumenu'           => [
+	'tumenu'           => [
             'description' => 'The place, where you can find daily menus for some student places in Munich',
             'target'      => 'https://menu.tum.sexy/',
         ],
@@ -818,8 +818,6 @@ class Route {
         'patterns'       => 'pse',
         'protein'        => 'pp',
         'queer'          => 'diversity',
-        'rbgreater'      => 'streams',
-        'rbgreateragain' => 'streams',
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
         'sem'            => 'semantics',
@@ -909,12 +907,11 @@ class Route {
             'sharelatex',
             'slam',
             'social',
-			'sp',
-			'spaetzle',
+	    'sp',
+	    'spaetzle',
             'springer',
             'statista',
-            'streams',
-	        'tumenu',
+	    'tumenu',
             'tval',
             'vorkurs',
             'wahl',
