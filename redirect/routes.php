@@ -38,7 +38,7 @@ class Route {
         ],
         'anal'             => [
             'description' => 'Analysis für Informatik',
-            'moodle_id'   => '83133',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763262',
         ],
         'androidsec'       => [
             'description' => 'Praktikum: Android Security',
@@ -51,6 +51,10 @@ class Route {
         'app'              => [
             'description' => 'TUM Campus App',
             'target'      => 'https://www.tum.app/',
+        ],
+        'arb'          => [
+            'description' => 'Arbabi Tutoriums-Website',
+            'target'      => 'https://home.in.tum.de/~arb/',
         ],
         'artemis'          => [
             'description' => 'Artemis platform (Applied Software Engineering)',
@@ -178,8 +182,7 @@ class Route {
         ],
         'db'               => [
             'description' => 'Grundlagen: Datenbanken',
-            'target'      => 'https://db.in.tum.de/teaching/ws2223/grundlagen/?lang=de',
-            'moodle_id'   => '80363',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
         ],
         'dea'              => [
             'description' => 'Studienplan von Data Engineering & Analytics',
@@ -190,8 +193,8 @@ class Route {
             'target'      => 'https://www.sv.tum.de/asta/team/diversityqueer/',
         ],
         'ds'               => [
-            'description' => 'Diskrete Strukturen',
-            'moodle_id'   => '80008',
+            'description' => 'Diskrete Strukturen (Moodle-Kurs)',
+            'moodle_id'   => '100934',
         ],
 	'dsolver'          => [
             'description' => 'DSolver',
@@ -217,13 +220,13 @@ class Route {
             'description' => 'HowTo: Setup eduroam securely!',
             'target'      => 'https://tum.sexy/eduroam.php',
         ],
+        'eidi'            => [
+            'description' => 'Einführung in die Informatik (Moodle-Kurs)',
+            'moodle_id'   => '100933',
+        ],
         'eist'             => [
             'description' => 'Einführung in die Softwaretechnik',
-            'target'      => 'https://artemis.cit.tum.de/courses/241',
-        ],
-	'eistslack'             => [
-            'description' => 'EIST Slack-Channel',
-            'target'      => 'https://eist2023.slack.com/',
+            'target'      => 'https://dse.in.tum.de/teaching/eist-24/',
         ],
         'enigame'          => [
             'description' => 'enigame Puzzle Hunt (Escape Game) Event',
@@ -269,12 +272,11 @@ class Route {
         ],
         'fpv'              => [
             'description' => 'Functional Programming and Verification',
-            'target'      => 'https://www.in.tum.de/i02/lehre/sommersemester-22/vorlesungen/functional-programming-and-verification/',
-            'moodle_id'   => '75431',
+            'target'      => 'https://www.cs.cit.tum.de/pl/lehre/wintersemester-2122/vorlesungen/functional-programming-and-verification/',
         ],
         'gad'              => [
             'description' => 'Grundlegende Algorithmen und Datenstrukturen',
-            'target'      => 'https://artemis.ase.in.tum.de/courses/256/exercises',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763749',
             'moodle_id'   => '86017',
         ],
         'gadunittests'     => [
@@ -283,7 +285,8 @@ class Route {
         ],
         'gbs'              => [
             'description' => 'Grundlagen: Betriebssysteme und Systemsoftware',
-            'moodle_id'   => '80270',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950763892',
+            'moodle_id'   =>   '100579',
         ],
         'ge-ma-sp'         => [
             'description' => 'Studienplan M.Sc. Informatik: Games Engineering',
@@ -331,7 +334,7 @@ class Route {
         ],
         'grnvs'            => [
             'description' => 'Grundlagen Rechnernetze und Verteilte Systeme',
-            'target'      => 'https://www.net.in.tum.de/teaching/ss23/grnvs.html',
+            'target'      => 'https://www.net.in.tum.de/teaching/ss24/grnvs.html',
         ],
         'gs'            => [
             'description' => 'DocGS',
@@ -377,10 +380,6 @@ class Route {
             'description' => 'Medical Imaging Technology',
             'moodle_id'   => '61616',
         ],
-        'info1'            => [
-            'description' => 'Einführung in die Informatik 1',
-            'moodle_id'   => '80182',
-        ],
         'io'               => [
             'description' => 'Information Officer',
             'target'      => 'https://www.sv.tum.de/asta/io/',
@@ -402,6 +401,10 @@ class Route {
             'description' => 'Julius Kreutz Tutoriums Website',
             'target'      => 'https://julius-kreutz.de',
         ],
+        'kap'              => [
+            'description' => 'Klinisches Anwendungsprojekt KAP (Medizin-Anwendungsfach)',
+            'target'      => 'https://gist.github.com/Jolly5/6bfe61e2e844e3c1efb56f02e4354cee',
+        ],
         'ki'               => [
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
@@ -417,7 +420,7 @@ class Route {
         ],
         'linalg'           => [
             'description' => 'Lineare Algebra für Informatik',
-            'target'      => 'https://www.moodle.tum.de/course/view.php?id=78521',
+            'target'      => 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950729947',
         ],
         'live'             => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
@@ -443,7 +446,7 @@ class Route {
         ],
         'matching'         => [
             'description' => 'IN.TUM-Matching-System',
-            'target'      => 'https://matching.in.tum.de/saml2/login/',
+            'target'      => 'https://matching.in.tum.de',
         ],
         'med1'             => [
             'description' => 'Medizin 1',
@@ -508,7 +511,7 @@ class Route {
         ],
         'numprog'          => [
             'description' => 'Numerisches Programmieren',
-            'moodle_id'   => '75131',
+            'moodle_id'   => '100678',
         ],
         'o'                => [
             'description' => 'TUM Opac',
@@ -527,8 +530,8 @@ class Route {
             'target'      => 'https://tum.cloud.panopto.eu',
         ],
         'pgdp'             => [
-            'description' => 'Praktikum Grundlagen der Programmierung (Moodle-Kurs)',
-            'moodle_id'   => '80180',
+            'description' => 'Praktikum: Grundlagen der Programmierung (Moodle-Kurs)',
+            'moodle_id'   => '100771',
         ],
         'pgdpunittests'     => [
             'description' => 'Unit - Tests: Praktikum Grundlagen der Programmierung',
@@ -716,10 +719,6 @@ class Route {
             'target'      => 'https://www.cs.cit.tum.de/tcs/lehre/sommersemester-2024/theo/',
             'moodle_id'   => '96557',
         ],
-        'theojudge'        => [
-            'description' => 'TUMjudge - Einführung in die theoretische Informatik',
-            'target'      => 'https://judge.in.tum.de/theo/public/',
-        ],
         'theotutor'        => [
             'description' => 'Einführung in die theoretische Informatik: Automatatutor',
             'target'      => 'https://automata.model.in.tum.de/',
@@ -739,10 +738,6 @@ class Route {
         'tval'            => [
             'description' => 'Status of the Validation Stations',
             'target'      => 'https://campus.tum.de/valistatus/en/',
-        ],
-        'uanal'            => [
-            'description' => 'Übungen zu Analysis für Informatik',
-            'moodle_id'   => '84798',
         ],
         'unidb'            => [
             'description' => 'Unischema von Prof. Kemper',
@@ -798,7 +793,7 @@ class Route {
         'complexity'     => 'comp',
         'covid'          => 'corona',
         'csd'            => 'pride',
-        'eidi'           => 'info1',
+        'eidi1'          => 'eidi',
         'eidi2'          => 'fpv',
         'erap'           => 'gra',
         'erapra'         => 'gra',
@@ -809,6 +804,7 @@ class Route {
         'geokal'         => 'geokalkuele',
         'gpp'            => 'pgdp',
         'hsw'            => 'wahl',
+        'info1'          => 'eidi',
         'info2'          => 'fpv',
         'kino'           => 'film',
         'kreutz'         => 'julius',
@@ -822,8 +818,6 @@ class Route {
         'patterns'       => 'pse',
         'protein'        => 'pp',
         'queer'          => 'diversity',
-        'rbgreater'      => 'streams',
-        'rbgreateragain' => 'streams',
         'roomfinder'     => 'finder',
         'rooms'          => 'room',
         'sem'            => 'semantics',
@@ -833,7 +827,6 @@ class Route {
         'tex'            => 'sharelatex',
         'ticket'         => 'semesterticket',
         'tumi'           => 'esn',
-        'uebanal'        => 'uanal',
         'uml'            => 'apollon',
         'urban-mobility' => 'ecarus',
         'wahlomat'       => 'walomat',
@@ -847,17 +840,16 @@ class Route {
      */
     private $sections = [
         '1. Semester' => [
-            'info1',
-            'pgdp',
-            'era',
-            'ds',
             'carlos',
+            'ds',
             'dsolver',
+            'eidi',
+            'era',
+            'pgdp',
         ],
         '2. Semester' => [
             'eist',
-	    'eistslack',
-	    'fpv',
+	        'fpv',
             'gad',
             'gra',
             'linalg',
@@ -865,18 +857,17 @@ class Route {
         ],
         '3. Semester' => [
             'anal',
-            'uanal',
             'db',
             'gbs',
         ],
         '4. Semester' => [
             'grnvs',
             'theo',
-            'theojudge',
             'dwt',
         ],
         '5. Semester' => [
             'numprog',
+            'kap',
         ],
         '6. Semester' => [],
         'Special'     => [
@@ -916,11 +907,10 @@ class Route {
             'sharelatex',
             'slam',
             'social',
-			'sp',
-			'spaetzle',
+	    'sp',
+	    'spaetzle',
             'springer',
             'statista',
-            'streams',
 	    'tumenu',
             'tval',
             'vorkurs',
